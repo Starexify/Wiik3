@@ -1,16 +1,14 @@
 {
   "title": "vs Matt Wiik3+",
   "description": "The V.S Matt WIIK3+ V-Slice port",
+  "homepage": "https://github.com/Starexify/Wiik3",
   "author": [
-    {
-      "name": "WIIK3+ Team",
-      "role": "Original Developers"
-    },
-    {
-      "name": "ImVeryBad",
-      "role": "Porter"
-    }
+    { "name": "WIIK3+ Team", "role": "Original Developers" },
+    { "name": "ImVeryBad", "role": "Porter" }
   ],
+  "dependencies": {
+    "Matt": ">=1.0.0"
+  },
   "api_version": "0.5.0",
   "mod_version": "1.0.0",
   "license": "CC BY 4.0, MIT"
