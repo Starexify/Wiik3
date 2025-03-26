@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "name": "Girlfriend Round 1 (Mii)",
-  "assetPath": "characters/gf-Round1",
+  "name": "Girlfriend Round 2 (Mii)",
+  "assetPath": "characters/gf-Round2",
   "startingAnimation": "danceRight",
   "singTime": 8.0,
   "animations": [
