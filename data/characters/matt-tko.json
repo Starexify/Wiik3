@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "name": "Matt (Chill)",
-  "assetPath": "characters/matt-chill",
+  "name": "Matt (TKO)",
+  "assetPath": "characters/matt-tko",
   "healthIcon": {
     "id": "matt"
   },
@@ -11,32 +11,32 @@
     {
       "offsets": [ -10, -29 ],
       "frameRate": 24,
-      "prefix": "Matt ChillIdle",
+      "prefix": "Mart ChillIdle",
       "name": "idle"
     }, {
       "offsets": [ -64, -56 ],
       "frameRate": 24,
-      "prefix": "Matt ChillLeft",
+      "prefix": "Mart ChillLeft",
       "name": "singLEFT"
     }, {
       "offsets": [ -9, -67 ],
       "frameRate": 24,
-      "prefix": "Matt ChillDown",
+      "prefix": "Mart ChillDown",
       "name": "singDOWN"
     }, {
       "offsets": [ -21, -21 ],
       "frameRate": 24,
-      "prefix": "Matt ChillUp",
+      "prefix": "Mart ChillUp",
       "name": "singUP"
     }, {
       "offsets": [ 7, -55 ],
       "frameRate": 24,
-      "prefix": "Matt ChillRight",
+      "prefix": "Mart ChillRight",
       "name": "singRIGHT"
     }, {
       "offsets": [ -10, -24 ],
       "frameRate": 24,
-      "prefix": "Matt ChillSnap",
+      "prefix": "Mart ChillSnap",
       "name": "snap"
     }
   ]

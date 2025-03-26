@@ -1,15 +1,15 @@
 {
   "version": "2.2.4",
-  "songName": "Wind Up",
-  "artist": "Unknown",
-  "charter": "Milan",
+  "songName": "King Hit",
+  "artist": "TheOnlyVolume",
+  "charter": "TheOnlyVolume",
   "playData": {
-    "songVariations": [ ],
+    "songVariations": [ "fefe" ],
     "difficulties": [ "easy", "normal", "hard" ],
     "characters": {
       "player": "bfmii",
-      "girlfriend": "gf-Round2",
-      "opponent": "matt-box",
+      "girlfriend": "gf-Round4",
+      "opponent": "matt-chill",
       "instrumental": "",
       "altInstrumentals": [ ],
       "opponentVocals": [ "matt" ]
@@ -31,7 +31,7 @@
     {
       "t": 0,
       "b": 0,
-      "bpm": 215,
+      "bpm": 270,
       "n": 4,
       "d": 4,
       "bt": [ 4, 4, 4, 4 ]

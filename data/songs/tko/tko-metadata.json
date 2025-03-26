@@ -1,20 +1,20 @@
 {
   "version": "2.2.4",
-  "songName": "Wind Up",
-  "artist": "Unknown",
+  "songName": "TKO",
+  "artist": "Hamillun, Shteque",
   "charter": "Milan",
   "playData": {
     "songVariations": [ ],
     "difficulties": [ "easy", "normal", "hard" ],
     "characters": {
       "player": "bfmii",
-      "girlfriend": "gf-Round2",
-      "opponent": "matt-box",
+      "girlfriend": "gfmii",
+      "opponent": "matt-tko",
       "instrumental": "",
       "altInstrumentals": [ ],
       "opponentVocals": [ "matt" ]
     },
-    "stage": "boxingRingWiik3",
+    "stage": "gymTko",
     "noteStyle": "funkin",
     "album": "wiik3expansion",
     "ratings": {
@@ -31,7 +31,7 @@
     {
       "t": 0,
       "b": 0,
-      "bpm": 215,
+      "bpm": 322,
       "n": 4,
       "d": 4,
       "bt": [ 4, 4, 4, 4 ]

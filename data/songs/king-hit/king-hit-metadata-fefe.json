@@ -1,26 +1,21 @@
 {
   "version": "2.2.4",
-  "songName": "Wind Up",
-  "artist": "Unknown",
-  "charter": "Milan",
+  "songName": "King Hit Fefe",
+  "artist": "TheOnlyVolume",
+  "charter": "Fefe",
   "playData": {
-    "songVariations": [ ],
-    "difficulties": [ "easy", "normal", "hard" ],
+    "difficulties": [ "fefe" ],
     "characters": {
       "player": "bfmii",
-      "girlfriend": "gf-Round2",
-      "opponent": "matt-box",
-      "instrumental": "",
-      "altInstrumentals": [ ],
-      "opponentVocals": [ "matt" ]
+      "girlfriend": "gf-Round4",
+      "opponent": "matt-chill",
+      "instrumental": ""
     },
     "stage": "boxingRingWiik3",
     "noteStyle": "funkin",
     "album": "wiik3expansion",
     "ratings": {
-      "easy": 0,
-      "normal": 0,
-      "hard": 0
+      "fefe": 0
     },
     "previewStart": 0,
     "previewEnd": 0
@@ -31,7 +26,7 @@
     {
       "t": 0,
       "b": 0,
-      "bpm": 215,
+      "bpm": 270,
       "n": 4,
       "d": 4,
       "bt": [ 4, 4, 4, 4 ]

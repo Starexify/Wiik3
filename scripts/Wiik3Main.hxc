@@ -1,0 +1,23 @@
+import funkin.modding.events.ScriptEvent;
+import funkin.modding.module.ScriptedModule;
+import funkin.play.PlayState;
+import funkin.util.Constants;
+
+class Wiik3Main extends ScriptedModule {
+
+    function new() {
+        super('Wiik3Main');
+    }
+
+    override function onSubStateOpenBegin(event:SubStateScriptEvent) {
+        Constants.DEFAULT_DIFFICULTY_LIST_FULL.push("fefe");
+    }
+
+    override function onSongLoaded(event:SongLoadScriptEvent) {
+        if (PlayState.instance == null) return;
+        var timeStamp = Date.now().getTime();
+
+        PlayState.instance.discordRPCAlbum = "https://github.com/Starexify/Wiik3/blob/0.5.x/images/freeplay/albumRoll/" + PlayState.instance.currentChart.album + ".png?raw=true?t=" + timeStamp;
+        PlayState.instance.discordRPCIcon = "https://github.com/Starexify/Wiik3/blob/0.5.x/images/icons/" + PlayState.instance.currentChart.album + ".png?raw=true?t=" + timeStamp;
+    }
+}

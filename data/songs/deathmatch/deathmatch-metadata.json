@@ -3,26 +3,16 @@
   "songName": "Deathmatch",
   "artist": "Milan",
   "charter": "Milan",
-  "divisions": 96,
-  "looped": false,
-  "offsets": {
-    "instrumental": 0,
-    "altInstrumentals": { },
-    "vocals": { },
-    "altVocals": { }
-  },
   "playData": {
     "songVariations": [ ],
-    "difficulties": [
-      "easy", "normal", "hard"
-    ],
+    "difficulties": [ "easy", "normal", "hard" ],
     "characters": {
       "player": "bfmii",
       "girlfriend": "gf-Round3",
       "opponent": "matt-chill",
       "instrumental": "",
       "altInstrumentals": [ ],
-      "playerVocals": [ "bfmii" ]
+      "opponentVocals": [ "matt" ]
     },
     "stage": "boxingRingWiik3",
     "noteStyle": "funkin",
