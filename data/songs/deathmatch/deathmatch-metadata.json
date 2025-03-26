@@ -1,7 +1,7 @@
 {
   "version": "2.2.4",
-  "songName": "Fisticuffs",
-  "artist": "Hamillun",
+  "songName": "Deathmatch",
+  "artist": "Milan",
   "charter": "Milan",
   "divisions": 96,
   "looped": false,
@@ -18,8 +18,8 @@
     ],
     "characters": {
       "player": "bfmii",
-      "girlfriend": "gf-Round1",
-      "opponent": "matt-box",
+      "girlfriend": "gf-Round3",
+      "opponent": "matt-chill",
       "instrumental": "",
       "altInstrumentals": [ ],
       "playerVocals": [ "bfmii" ]
@@ -29,8 +29,8 @@
     "album": "wiik3expansion",
     "ratings": {
       "easy": 0,
-      "hard": 0,
-      "normal": 0
+      "normal": 0,
+      "hard": 0
     },
     "previewStart": 0,
     "previewEnd": 0
@@ -41,7 +41,7 @@
     {
       "t": 0,
       "b": 0,
-      "bpm": 222,
+      "bpm": 400,
       "n": 4,
       "d": 4,
       "bt": [ 4, 4, 4, 4 ]

@@ -1,45 +1,43 @@
 {
   "version": "1.0.0",
-  "name": "Matt Chill",
+  "name": "Matt (Chill)",
   "assetPath": "characters/matt-chill",
+  "healthIcon": {
+    "id": "matt"
+  },
   "startingAnimation": "idle",
-  "singTime": 8.0,
+  "singTime": 6.1,
   "animations": [
     {
-      "offsets": [0, -320],
+      "offsets": [ 0, -320 ],
       "frameRate": 24,
       "prefix": "Matt ChillIdle",
       "name": "idle"
-    },
-    {
-      "offsets": [39, -16],
+    }, {
+      "offsets": [ 39, -16 ],
       "frameRate": 24,
       "prefix": "Matt ChillLeft",
       "name": "singLEFT"
-    },
-    {
-      "offsets": [-79, -2],
+    }, {
+      "offsets": [ -79, -2 ],
       "frameRate": 24,
       "prefix": "Matt ChillDown",
       "name": "singDOWN"
-    },
-    {
-      "offsets": [-56, 43],
+    }, {
+      "offsets": [ -56, 43 ],
       "frameRate": 24,
       "prefix": "Matt ChillUp",
       "name": "singUP"
-    },
-    {
-      "offsets": [-46, 3],
+    }, {
+      "offsets": [ -46, 3 ],
       "frameRate": 24,
       "prefix": "Matt ChillRight",
       "name": "singRIGHT"
-    },
-    {
-      "offsets": [0, -315],
+    }, {
+      "offsets": [ 0, -315 ],
       "frameRate": 24,
       "prefix": "Matt ChillSnap",
-      "anim": "snap"
+      "name": "snap"
     }
   ]
 }

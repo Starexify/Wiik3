@@ -1,42 +1,38 @@
 {
-	"version": "1.0.0",
-	"name": "Matt Box",
-	"assetPath": "characters/matt-box",
-	"healthIcon": {
-      "id": "matt-box"
-    },
-	"startingAnimation": "idle",
-	"singTime": 6.1,
-	"animations": [
-		{
-			"offsets": [0, 0],
-			"frameRate": 24,
-			"prefix": "Matt BoxIdle",
-			"name": "idle"
-		},
-		{
-			"offsets": [-19, 0],
-			"frameRate": 24,
-			"prefix": "Matt BoxLeft",
-			"name": "singLEFT"
-		},
-		{
-			"offsets": [-10, 0],
-			"frameRate": 24,
-			"prefix": "Matt BoxDown",
-			"name": "singDOWN"
-		},
-		{
-			"offsets": [-6, 20],
-			"frameRate": 24,
-			"prefix": "Matt BoxUp",
-			"name": "singUP"
-		},
-		{
-			"offsets": [0, 2],
-			"frameRate": 24,
-			"prefix": "Matt BoxRight",
-			"name": "singRIGHT"
-		}
-	]
+  "version": "1.0.0",
+  "name": "Matt (Box)",
+  "assetPath": "characters/matt-box",
+  "healthIcon": {
+    "id": "matt-box"
+  },
+  "startingAnimation": "idle",
+  "singTime": 6.1,
+  "animations": [
+    {
+      "offsets": [ 0, 0 ],
+      "frameRate": 24,
+      "prefix": "Matt BoxIdle",
+      "name": "idle"
+    }, {
+      "offsets": [ -19, 0 ],
+      "frameRate": 24,
+      "prefix": "Matt BoxLeft",
+      "name": "singLEFT"
+    }, {
+      "offsets": [ -10, 0 ],
+      "frameRate": 24,
+      "prefix": "Matt BoxDown",
+      "name": "singDOWN"
+    }, {
+      "offsets": [ -6, 20 ],
+      "frameRate": 24,
+      "prefix": "Matt BoxUp",
+      "name": "singUP"
+    }, {
+      "offsets": [ 0, 2 ],
+      "frameRate": 24,
+      "prefix": "Matt BoxRight",
+      "name": "singRIGHT"
+    }
+  ]
 }
