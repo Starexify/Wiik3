@@ -18,9 +18,9 @@
     "noteStyle": "funkin",
     "album": "wiik3expansion",
     "ratings": {
-      "easy": 0,
-      "normal": 0,
-      "hard": 0
+      "easy": 10,
+      "normal": 12,
+      "hard": 13
     },
     "previewStart": 0,
     "previewEnd": 0
