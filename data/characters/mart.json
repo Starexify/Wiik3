@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "name": "Mart (Fefe)",
+  "assetPath": "characters/matt-fartsetts",
+  "healthIcon": {
+    "id": ""
+  },
+  "startingAnimation": "idle",
+  "singTime": 6.1,
+  "animations": [
+    {
+      "offsets": [ -10, -29 ],
+      "frameRate": 24,
+      "prefix": "mart idle",
+      "name": "idle"
+    }, {
+      "offsets": [ 4, -28 ],
+      "frameRate": 24,
+      "prefix": "mart left",
+      "name": "singLEFT"
+    }, {
+      "offsets": [ -21, -58 ],
+      "frameRate": 24,
+      "prefix": "mart down",
+      "name": "singDOWN"
+    }, {
+      "offsets": [ -13, -3 ],
+      "frameRate": 24,
+      "prefix": "mart up",
+      "name": "singUP"
+    }, {
+      "offsets": [ -47, -27 ],
+      "frameRate": 24,
+      "prefix": "mart right",
+      "name": "singRIGHT"
+    }, {
+      "offsets": [ -16, 18 ],
+      "frameRate": 24,
+      "prefix": "mart troll",
+      "name": "troll"
+    }
+  ]
+}

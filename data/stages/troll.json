@@ -1,0 +1,45 @@
+{
+  "name": "Troll",
+  "version": "1.0.3",
+  "cameraZoom": 0.9,
+  "props": [
+    {
+      "danceEvery": 0,
+      "zIndex": 10,
+      "position": [ -395, -100 ],
+      "scale": [ 1, 1 ],
+      "animType": "sparrow",
+      "name": "backtroll",
+      "isPixel": false,
+      "assetPath": "stages/troll/backtroll",
+      "scroll": [ 0.9, 0.9 ]
+    }, {
+      "danceEvery": 0,
+      "zIndex": 20,
+      "position": [ -395, -310 ],
+      "scale": [ 1, 1 ],
+      "animType": "sparrow",
+      "name": "floorblack",
+      "isPixel": false,
+      "assetPath": "stages/troll/floortroll",
+      "scroll": [ 0.9, 0.9 ]
+    }
+  ],
+  "characters": {
+    "bf": {
+      "zIndex": 300,
+      "position": [ 1084, 795 ],
+      "cameraOffsets": [ -100, -100 ]
+    },
+    "dad": {
+      "zIndex": 200,
+      "cameraOffsets": [ 130, -90 ],
+      "position": [ 350, 735 ]
+    },
+    "gf": {
+      "zIndex": 100,
+      "cameraOffsets": [ 0, 0 ],
+      "position": [ 751.5, 717 ]
+    }
+  }
+}
