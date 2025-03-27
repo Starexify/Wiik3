@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "name": "Wiik3 Extras",
+  "titleAsset": "storymenu/titles/wiik3",
+  "props": [],
+  "visible": false,
+  "songs": ["tko"]
+}
