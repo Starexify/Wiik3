@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "backdrop": {
+    "type": "solid",
+    "fadeTime": 2.0,
+    "color": "#BFB3DFD8"
+  },
+  "music": {
+    "asset": "",
+    "fadeTime": 2.0,
+    "looped": true
+  },
+  "outro": {
+    "type": "fade",
+    "fadeTime": 1.0
+  },
+  "dialogue": [
+    {
+      "speaker": "matt-box",
+      "speakerAnimation": "talk",
+      "box": "wiik3",
+      "boxAnimation": "idle",
+      "text": [ "i assumed you left for good after that night, why the hell are you here?" ]
+    }, {
+      "speaker": "bf",
+      "speakerAnimation": "talk",
+      "box": "wiik3",
+      "boxAnimation": "idle",
+      "text": [ "beep ba skdoo bap" ]
+    }, {
+      "speaker": "matt-box",
+      "speakerAnimation": "talk",
+      "box": "wiik3",
+      "boxAnimation": "idle",
+      "text": [ "let's start off easy, i wanna see if you still got it." ]
+    }
+  ]
+}

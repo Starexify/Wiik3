@@ -1,0 +1,20 @@
+import funkin.modding.events.ScriptEvent;
+import funkin.play.cutscene.dialogue.ConversationState;
+import funkin.play.cutscene.dialogue.ScriptedDialogueBox;
+
+class Wiik3DialogueBox extends ScriptedDialogueBox {
+    function new() {
+        super("wiik3");
+    }
+
+    override function onDialogueLine(event:DialogueScriptEvent) {
+        super.onDialogueLine(event);
+        // Override the default box animation behavior by switching the state
+        event.conversation.state = ConversationState.Opening;
+    }
+
+    override function onDialogueEnd(event:DialogueScriptEvent) {
+        super.onDialogueEnd(event);
+        this.textDisplay.visible = false;
+    }
+}

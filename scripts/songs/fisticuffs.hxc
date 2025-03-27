@@ -1,0 +1,36 @@
+import funkin.modding.events.ScriptEvent;
+import funkin.play.PlayState;
+import funkin.play.PlayStatePlaylist;
+import funkin.play.song.ScriptedSong;
+
+class FisticuffsSong extends ScriptedSong {
+    var hasPlayedCutscene:Bool;
+
+    function new() {
+        super('fisticuffs');
+    }
+
+    override function onCountdownStart(event:CountdownScriptEvent):Void {
+        super.onCountdownStart(event);
+        if (!PlayStatePlaylist.isStoryMode) hasPlayedCutscene = true;
+
+        if (!hasPlayedCutscene) {
+            hasPlayedCutscene = true;
+            event.cancel(); // CANCEL THE COUNTDOWN!
+            PlayState.instance.currentStage.pause();
+            startDialogue();
+        }
+    }
+
+    function startDialogue() {
+        PlayState.instance.startConversation('fisticuffs');
+    }
+
+    override function onSongRetry(event:ScriptEvent) {
+        hasPlayedCutscene = true;
+    }
+
+    override function onCreate(event:ScriptEvent):Void {
+        hasPlayedCutscene = false;
+    }
+}

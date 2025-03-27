@@ -1,0 +1,24 @@
+{
+  "version": "1.1.0",
+  "name": "Default (Wiik3)",
+  "assetPath": "speech_bubble_wiik3",
+  "offsets": [ 50, 380 ],
+  "scale": 1,
+  "text": {
+    "offsets": [ 140, 140 ],
+    "width": 900,
+    "color": "#3F2021",
+    "fontFamily": "Pixel Arial 11 Bold",
+    "shadowColor": "#D89494",
+    "shadowWidth": 2
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "speech bubble normal0",
+      "offsets": [ 0, 0 ],
+      "looped": true,
+      "frameRate": 24
+    }
+  ]
+}
