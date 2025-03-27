@@ -3,11 +3,11 @@ import funkin.play.PlayState;
 import funkin.play.PlayStatePlaylist;
 import funkin.play.song.ScriptedSong;
 
-class DeathmatchSong extends ScriptedSong {
+class WindUpSong extends ScriptedSong {
     var hasPlayedCutscene:Bool;
 
     function new() {
-        super('deathmatch');
+        super('wind-up');
     }
 
     override function onCountdownStart(event:CountdownScriptEvent):Void {
@@ -23,7 +23,7 @@ class DeathmatchSong extends ScriptedSong {
     }
 
     function startDialogue() {
-        PlayState.instance.startConversation('deathmatch');
+        PlayState.instance.startConversation('wind-up');
     }
 
     override function onSongRetry(event:ScriptEvent) {

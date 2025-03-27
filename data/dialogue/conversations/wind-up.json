@@ -20,19 +20,13 @@
       "speakerAnimation": "talk",
       "box": "wiik3",
       "boxAnimation": "idle",
-      "text": [ "i guess you still got it, i gotta admit, you're pretty good." ]
+      "text": [ "i guess you're not rusty at all, how about we go two steps higher." ]
     }, {
       "speaker": "bf",
       "speakerAnimation": "talk",
       "box": "wiik3",
       "boxAnimation": "idle",
-      "text": [ "ba skoo be!" ]
-    }, {
-      "speaker": "matt-box",
-      "speakerAnimation": "talk",
-      "box": "wiik3",
-      "boxAnimation": "idle",
-      "text": [ "you're fun to train with kid, but i still don't want to go easy on you." ]
+      "text": [ "beep beep" ]
     }
   ]
 }
