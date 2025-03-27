@@ -1,4 +1,5 @@
 import funkin.modding.events.ScriptEvent;
+import funkin.play.PlayState;
 import funkin.play.cutscene.dialogue.ConversationState;
 import funkin.play.cutscene.dialogue.ScriptedDialogueBox;
 
@@ -11,6 +12,11 @@ class Wiik3DialogueBox extends ScriptedDialogueBox {
         super.onDialogueLine(event);
         // Override the default box animation behavior by switching the state
         event.conversation.state = ConversationState.Opening;
+    }
+
+    override function onTypingComplete() {
+        super.onTypingComplete();
+        PlayState.instance.currentConversation.currentSpeaker.animation.play("idle", true);
     }
 
     override function onDialogueEnd(event:DialogueScriptEvent) {

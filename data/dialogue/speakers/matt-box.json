@@ -9,13 +9,14 @@
       "name": "idle",
       "prefix": "Matt Box portrait idle",
       "offsets": [0, 0],
-      "frameRate": 12
+      "frameRate": 24
     },
     {
       "name": "talk",
       "prefix": "Matt Box portrait talk",
       "offsets": [0, 0],
-      "frameRate": 12
+      "looped": true,
+      "frameRate": 24
     }
   ]
 }

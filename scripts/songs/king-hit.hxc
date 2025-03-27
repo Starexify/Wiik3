@@ -11,7 +11,9 @@ import flixel.FlxG;
 class KingHitSong extends ScriptedSong {
     var hasPlayedCutscene:Bool;
     var hasSeenImage:Bool;
+    var isSeeingImage:Bool;
     var endingImage:FunkinSprite;
+    var bgMusic:FunkinSound;
 
     function new() {
         super('king-hit');
@@ -29,16 +31,19 @@ class KingHitSong extends ScriptedSong {
     }
 
     override function onUpdate(event:UpdateScriptEvent) {
-        if (FlxG.keys.justPressed.ENTER && hasSeenImage) {
+        if (FlxG.keys.justPressed.ENTER && isSeeingImage) {
             FunkinSound.playOnce(Paths.sound('goaway'), 1.0);
             endingImage.destroy();
+            bgMusic.stop();
             PlayState.instance.endSong();
         }
     }
 
     override function onSongEnd(event:ScriptEvent) {
+        if (!PlayStatePlaylist.isStoryMode) hasSeenImage = true;
         if (!hasSeenImage) {
             hasSeenImage = true;
+            isSeeingImage = true;
             event.cancel(); // CANCEL THE END!
             initEndingImage();
         }
@@ -49,17 +54,22 @@ class KingHitSong extends ScriptedSong {
         endingImage.loadTexture("ending3");
         endingImage.zIndex = 2000;
         endingImage.screenCenter(0x11);
+        endingImage.cameras = [PlayState.instance.camCutscene];
+        FunkinSound.playOnce(Paths.sound('award'), 1.0);
+        bgMusic = FunkinSound.load(Paths.music("chartEditorLoop/chartEditorLoop"), true, true);
+        bgMusic.play(false, FlxG.random.int(0, Std.int(bgMusic.length / 2)));
         PlayState.instance.add(endingImage);
-        PlayState.instance.refresh();
     }
 
     override function onSongRetry(event:ScriptEvent) {
         hasPlayedCutscene = true;
         hasSeenImage = true;
+        isSeeingImage = false;
     }
 
     override function onCreate(event:ScriptEvent):Void {
         hasPlayedCutscene = false;
         hasSeenImage = false;
+        isSeeingImage = false;
     }
 }
