@@ -18,12 +18,8 @@ class DeathmatchSong extends ScriptedSong {
             hasPlayedCutscene = true;
             event.cancel(); // CANCEL THE COUNTDOWN!
             PlayState.instance.currentStage.pause();
-            startDialogue();
+            PlayState.instance.startConversation('deathmatch');
         }
-    }
-
-    function startDialogue() {
-        PlayState.instance.startConversation('deathmatch');
     }
 
     override function onSongRetry(event:ScriptEvent) {

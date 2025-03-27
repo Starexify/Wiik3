@@ -1,10 +1,17 @@
+import funkin.Paths;
+import funkin.audio.FunkinSound;
+import funkin.graphics.FunkinSprite;
 import funkin.modding.events.ScriptEvent;
 import funkin.play.PlayState;
 import funkin.play.PlayStatePlaylist;
 import funkin.play.song.ScriptedSong;
 
+import flixel.FlxG;
+
 class KingHitSong extends ScriptedSong {
     var hasPlayedCutscene:Bool;
+    var hasSeenImage:Bool;
+    var endingImage:FunkinSprite;
 
     function new() {
         super('king-hit');
@@ -13,24 +20,46 @@ class KingHitSong extends ScriptedSong {
     override function onCountdownStart(event:CountdownScriptEvent):Void {
         super.onCountdownStart(event);
         if (!PlayStatePlaylist.isStoryMode) hasPlayedCutscene = true;
-
         if (!hasPlayedCutscene) {
             hasPlayedCutscene = true;
             event.cancel(); // CANCEL THE COUNTDOWN!
             PlayState.instance.currentStage.pause();
-            startDialogue();
+            PlayState.instance.startConversation('king-hit'); // Start Song Dialogue
         }
     }
 
-    function startDialogue() {
-        PlayState.instance.startConversation('king-hit');
+    override function onUpdate(event:UpdateScriptEvent) {
+        if (FlxG.keys.justPressed.ENTER && hasSeenImage) {
+            FunkinSound.playOnce(Paths.sound('goaway'), 1.0);
+            endingImage.destroy();
+            PlayState.instance.endSong();
+        }
+    }
+
+    override function onSongEnd(event:ScriptEvent) {
+        if (!hasSeenImage) {
+            hasSeenImage = true;
+            event.cancel(); // CANCEL THE END!
+            initEndingImage();
+        }
+    }
+
+    function initEndingImage() {
+        endingImage = new FunkinSprite();
+        endingImage.loadTexture("ending3");
+        endingImage.zIndex = 2000;
+        endingImage.screenCenter(0x11);
+        PlayState.instance.add(endingImage);
+        PlayState.instance.refresh();
     }
 
     override function onSongRetry(event:ScriptEvent) {
         hasPlayedCutscene = true;
+        hasSeenImage = true;
     }
 
     override function onCreate(event:ScriptEvent):Void {
         hasPlayedCutscene = false;
+        hasSeenImage = false;
     }
 }

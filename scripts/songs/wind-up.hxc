@@ -18,12 +18,8 @@ class WindUpSong extends ScriptedSong {
             hasPlayedCutscene = true;
             event.cancel(); // CANCEL THE COUNTDOWN!
             PlayState.instance.currentStage.pause();
-            startDialogue();
+            PlayState.instance.startConversation('wind-up'); // Start Song Dialogue
         }
-    }
-
-    function startDialogue() {
-        PlayState.instance.startConversation('wind-up');
     }
 
     override function onSongRetry(event:ScriptEvent) {
