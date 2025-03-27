@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "name": "Matt (Chill)",
+  "assetPath": "dialogue/wiik3/matt chill portrait",
+  "scale": 0.8,
+  "offsets": [170, 190],
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Matt Chill portrait idle",
+      "offsets": [0, 0],
+      "frameRate": 12
+    },
+    {
+      "name": "talk",
+      "prefix": "Matt Chill portrait talk",
+      "offsets": [0, 0],
+      "frameRate": 12
+    }
+  ]
+}

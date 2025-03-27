@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="matt chill portrait.png">
+	<!-- Created with Adobe Animate version 18.0.1.115 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Matt Chill portrait talk0000" x="0" y="0" width="266" height="359" frameX="-2" frameY="0" frameWidth="270" frameHeight="359"/>
+	<SubTexture name="Matt Chill portrait talk0001" x="0" y="0" width="266" height="359" frameX="-2" frameY="0" frameWidth="270" frameHeight="359"/>
+	<SubTexture name="Matt Chill portrait talk0002" x="0" y="0" width="266" height="359" frameX="-2" frameY="0" frameWidth="270" frameHeight="359"/>
+	<SubTexture name="Matt Chill portrait talk0003" x="266" y="0" width="269" height="355" frameX="0" frameY="-3" frameWidth="270" frameHeight="359"/>
+	<SubTexture name="Matt Chill portrait talk0004" x="266" y="0" width="269" height="355" frameX="0" frameY="-3" frameWidth="270" frameHeight="359"/>
+	<SubTexture name="Matt Chill portrait talk0005" x="535" y="0" width="270" height="354" frameX="0" frameY="-4" frameWidth="270" frameHeight="359"/>
+	<SubTexture name="Matt Chill portrait talk0006" x="535" y="0" width="270" height="354" frameX="0" frameY="-4" frameWidth="270" frameHeight="359"/>
+	<SubTexture name="Matt Chill portrait talk0007" x="535" y="0" width="270" height="354" frameX="0" frameY="-4" frameWidth="270" frameHeight="359"/>
+	<SubTexture name="Matt Chill portrait talk0008" x="0" y="0" width="266" height="359" frameX="-2" frameY="0" frameWidth="270" frameHeight="359"/>
+	<SubTexture name="Matt Chill portrait talk0009" x="0" y="0" width="266" height="359" frameX="-2" frameY="0" frameWidth="270" frameHeight="359"/>
+	<SubTexture name="Matt Chill portrait talk0010" x="0" y="0" width="266" height="359" frameX="-2" frameY="0" frameWidth="270" frameHeight="359"/>
+	<SubTexture name="Matt Chill portrait talk0011" x="266" y="0" width="269" height="355" frameX="0" frameY="-3" frameWidth="270" frameHeight="359"/>
+	<SubTexture name="Matt Chill portrait talk0012" x="266" y="0" width="269" height="355" frameX="0" frameY="-3" frameWidth="270" frameHeight="359"/>
+	<SubTexture name="Matt Chill portrait talk0013" x="535" y="0" width="270" height="354" frameX="0" frameY="-4" frameWidth="270" frameHeight="359"/>
+	<SubTexture name="Matt Chill portrait talk0014" x="535" y="0" width="270" height="354" frameX="0" frameY="-4" frameWidth="270" frameHeight="359"/>
+	<SubTexture name="Matt Chill portrait talk0015" x="535" y="0" width="270" height="354" frameX="0" frameY="-4" frameWidth="270" frameHeight="359"/>
+	<SubTexture name="Matt Chill portrait talk0016" x="0" y="0" width="266" height="359" frameX="-2" frameY="0" frameWidth="270" frameHeight="359"/>
+	<SubTexture name="Matt Chill portrait talk0017" x="0" y="0" width="266" height="359" frameX="-2" frameY="0" frameWidth="270" frameHeight="359"/>
+	<SubTexture name="Matt Chill portrait talk0018" x="0" y="0" width="266" height="359" frameX="-2" frameY="0" frameWidth="270" frameHeight="359"/>
+	<SubTexture name="Matt Chill portrait talk0019" x="266" y="0" width="269" height="355" frameX="0" frameY="-3" frameWidth="270" frameHeight="359"/>
+	<SubTexture name="Matt Chill portrait talk0020" x="266" y="0" width="269" height="355" frameX="0" frameY="-3" frameWidth="270" frameHeight="359"/>
+	<SubTexture name="Matt Chill portrait talk0021" x="535" y="0" width="270" height="354" frameX="0" frameY="-4" frameWidth="270" frameHeight="359"/>
+	<SubTexture name="Matt Chill portrait talk0022" x="535" y="0" width="270" height="354" frameX="0" frameY="-4" frameWidth="270" frameHeight="359"/>
+	<SubTexture name="Matt Chill portrait talk0023" x="535" y="0" width="270" height="354" frameX="0" frameY="-4" frameWidth="270" frameHeight="359"/>
+	<SubTexture name="Matt Chill portrait talk0024" x="535" y="0" width="270" height="354" frameX="0" frameY="-4" frameWidth="270" frameHeight="359"/>
+	<SubTexture name="Matt Chill portrait idle0000" x="535" y="0" width="270" height="354" frameX="0" frameY="-4" frameWidth="270" frameHeight="359"/>
+</TextureAtlas>
