@@ -7,7 +7,7 @@
     "songVariations": [ ],
     "difficulties": [ "easy", "normal", "hard" ],
     "characters": {
-      "player": "bfmii",
+      "player": "bf-mii",
       "girlfriend": "gfmii",
       "opponent": "matt-tko",
       "instrumental": "",

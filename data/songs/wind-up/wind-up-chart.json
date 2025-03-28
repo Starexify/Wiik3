@@ -190,6 +190,35 @@
 }
     },
     {
+      "t": 61534.8837209302,
+      "e": "ZoomCamera",
+      "v": {
+	"duration": 4,
+	"ease": "linear",
+	"zoom": 1.6,
+	"mode": "stage"
+}
+    },
+    {
+      "t": 61744.1860465116,
+      "e": "PlayAnimation",
+      "v": {
+	"target": "boyfriend",
+	"force": true,
+	"anim": "hit"
+}
+    },
+    {
+      "t": 61953.488372093,
+      "e": "ZoomCamera",
+      "v": {
+	"duration": 3,
+	"ease": "linear",
+	"mode": "stage",
+	"zoom": 0.9
+}
+    },
+    {
       "t": 62511.6279069768,
       "e": "FocusCamera",
       "v": {
@@ -10258,13 +10287,6 @@
       {
         "t": 61535.4186046512,
         "d": 3,
-        "l": 0,
-        "k": "normal",
-        "p": [        ]
-      },
-      {
-        "t": 61814.4883720931,
-        "d": 0,
         "l": 0,
         "k": "normal",
         "p": [        ]

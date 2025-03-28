@@ -7,7 +7,7 @@
     "songVariations": [ ],
     "difficulties": [ "easy", "normal", "hard" ],
     "characters": {
-      "player": "bfmii",
+      "player": "bf-mii",
       "girlfriend": "gf-Round2",
       "opponent": "matt-box",
       "instrumental": "",
