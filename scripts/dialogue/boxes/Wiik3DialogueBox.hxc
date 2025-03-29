@@ -10,7 +10,6 @@ class Wiik3DialogueBox extends ScriptedDialogueBox {
 
     override function onDialogueLine(event:DialogueScriptEvent) {
         super.onDialogueLine(event);
-        // Override the default box animation behavior by switching the state
         event.conversation.state = ConversationState.Opening;
     }
 

@@ -11,7 +11,7 @@ class Wiik3Main extends ScriptedModule {
         super('Wiik3Main');
     }
 
-    var songNames:Array<String> = ["Fisticuffs", "Wind Up", "Deathmatch", "King Hit", "King Hit Fefe", "TKO"] ;
+    var wiik3Songs:Array<String> = ["Fisticuffs", "Wind Up", "Deathmatch", "King Hit", "King Hit Fefe", "TKO"] ;
 
     override function onSubStateOpenBegin(event:SubStateScriptEvent) {
         Constants.DEFAULT_DIFFICULTY_LIST_FULL.push("fefe");
@@ -22,7 +22,7 @@ class Wiik3Main extends ScriptedModule {
 
         var timeStamp = Date.now().getTime();
         var songName = PlayState.instance.currentChart.songName;
-        if (songNames.indexOf(songName) != -1) PlayState.instance.discordRPCAlbum = "https://github.com/Starexify/Wiik3/blob/0.5.x/images/freeplay/albumRoll/" + PlayState.instance.currentChart.album + ".png?raw=true?t=" + timeStamp;
-        if (songNames.indexOf(songName) != -1) PlayState.instance.discordRPCIcon = "https://github.com/Starexify/Wiik3/blob/assets/icons/" + PlayState.instance.currentChart.characters.opponent + ".png?raw=true?t=" + timeStamp;
+        if (wiik3Songs.indexOf(songName) != -1) PlayState.instance.discordRPCAlbum = "https://github.com/Starexify/Wiik3/blob/0.5.x/images/freeplay/albumRoll/" + PlayState.instance.currentChart.album + ".png?raw=true?t=" + timeStamp;
+        if (wiik3Songs.indexOf(songName) != -1) PlayState.instance.discordRPCIcon = "https://github.com/Starexify/Wiik3/blob/assets/icons/" + PlayState.instance.currentChart.characters.opponent + ".png?raw=true?t=" + timeStamp;
     }
 }

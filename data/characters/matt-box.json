@@ -1,6 +1,7 @@
 {
   "version": "1.0.0",
   "name": "Matt (Box)",
+  "renderType": "multisparrow",
   "assetPath": "characters/matt-box",
   "healthIcon": {
     "id": "matt-box"
