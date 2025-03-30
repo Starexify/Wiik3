@@ -71,19 +71,19 @@
       "t": 7111.11111111111,
       "e": "PlayAnimation",
       "v": {
-        "force": true,
+        "target": "dad",
         "anim": "troll",
-        "target": "dad"
+        "force": true
       }
     },
     {
       "t": 7111.11111111111,
       "e": "ZoomCamera",
       "v": {
-        "ease": "linear",
         "duration": 12,
-        "zoom": 1.1,
-        "mode": "stage"
+        "ease": "linear",
+        "mode": "stage",
+        "zoom": 1.1
       }
     },
     {
@@ -146,10 +146,10 @@
       "t": 14222.2222222222,
       "e": "ZoomCamera",
       "v": {
-        "ease": "linear",
         "duration": 12,
-        "zoom": 1,
-        "mode": "stage"
+        "ease": "linear",
+        "mode": "stage",
+        "zoom": 1
       }
     },
     {
@@ -840,6 +840,34 @@
     },
     {
       "t": 206222.222222222,
+      "e": "FocusCamera",
+      "v": {
+        "char": 0
+      }
+    },
+    {
+      "t": 213333.333333333,
+      "e": "FocusCamera",
+      "v": {
+        "char": 1
+      }
+    },
+    {
+      "t": 216888.888888889,
+      "e": "FocusCamera",
+      "v": {
+        "char": 0
+      }
+    },
+    {
+      "t": 220444.444444444,
+      "e": "FocusCamera",
+      "v": {
+        "char": 1
+      }
+    },
+    {
+      "t": 224000,
       "e": "FocusCamera",
       "v": {
         "char": 0
