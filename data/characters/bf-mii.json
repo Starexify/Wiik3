@@ -17,7 +17,7 @@
     {
       "name": "singLEFT",
       "prefix": "BF NOTE LEFT0",
-      "offsets": [-29, -9]
+      "offsets": [-2, -1]
     },
     {
       "name": "singDOWN",
@@ -32,7 +32,7 @@
     {
       "name": "singRIGHT",
       "prefix": "BF NOTE RIGHT0",
-      "offsets": [45, -4]
+      "offsets": [1, -1]
     },
     {
       "name": "singLEFTmiss",
